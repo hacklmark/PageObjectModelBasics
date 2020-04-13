@@ -8,11 +8,11 @@ public class LoginPage extends Page {
 
     public ZohoAppPage doLogin(String username, String password) throws InterruptedException {
 
-        driver.findElement(By.cssSelector("#login_id")).sendKeys(username);
-        driver.findElement(By.cssSelector("#nextbtn")).click();
+        type("email_CSS", username);
+        click("nextbtn_CSS");
         Thread.sleep(3000);
-        driver.findElement(By.cssSelector("#password")).sendKeys(password);
-        driver.findElement(By.cssSelector("#nextbtn")).click();
+        type("password_CSS",password);
+        click("signinbtn_CCS");
         Thread.sleep(2000);
 
         return new ZohoAppPage();

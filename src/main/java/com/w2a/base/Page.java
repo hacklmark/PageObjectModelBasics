@@ -4,6 +4,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -56,6 +57,8 @@ public class Page {
 
         if (driver == null) {
 
+            //either with PropertyConfigurator or in pom.xml configure log4j
+            PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\test\\resources\\com\\w2a\\properties\\log4j.properties");
             try {
                 fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\com\\w2a\\properties\\Config.properties");
             } catch (FileNotFoundException e) {
@@ -94,6 +97,7 @@ public class Page {
 
                 // System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\geckodriver.exe");
                 driver = new FirefoxDriver();
+                log.debug("Mozilla Firefox Launched !!!");
 
             }else if(config.getProperty("browser").equals("chrome")) {
 
@@ -109,6 +113,7 @@ public class Page {
                 options.addArguments("--disable-infobars");
 
                 driver = new ChromeDriver(options);
+                log.debug("Google Chrome Launched !!!");
 
             }else if(config.getProperty("browser").equals("ie")){
                 System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\IEDriverServer.exe");
@@ -124,6 +129,11 @@ public class Page {
 
             menu = new TopMenu(driver);
         }
+    }
+
+    public static void quit(){
+
+        driver.quit();
     }
 
     //Common Keywords

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Data Driven Basics">
+<suite name="Page Object Model">
 
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
@@ -8,33 +8,14 @@
         <listener class-name="com.w2a.listeners.CustomListeners"/>
     </listeners>
 
-    <test verbose="2" preserve-order="true" name="Bank Manager Login Test">
+    <test verbose="2" preserve-order="true" name="Login Test">
         <classes>
-            <class name="com.w2a.testcases.BankManangerLoginTest">
+            <class name="com.w2a.testcases.LoginTest">
                 <methods>
-                    <include name="bankManangerLoginTest"/>
+                    <include name="loginTest"/>
                 </methods>
             </class>
         </classes>
     </test>
 
-    <test verbose="2" preserve-order="true" name="Add Customer Test">
-        <classes>
-            <class name="com.w2a.testcases.AddCustomerTest">
-                <methods>
-                    <include name="addCustomerTest"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-
-    <test verbose="2" preserve-order="true" name="Open Account Test">
-        <classes>
-            <class name="com.w2a.testcases.OpenAccountTest">
-                <methods>
-                    <include name="openAccountTest"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
 </suite>
