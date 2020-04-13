@@ -1,5 +1,6 @@
 package com.w2a.base;
 
+import com.w2a.pages.crm.accounts.AccountsPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -34,8 +35,11 @@ public class TopMenu {
 
     }
 
-    public void goToAccounts(){
+    public AccountsPage goToAccounts(){
+
         driver.findElement(By.cssSelector(".lyteMenuItems>div:nth-child(4)")).click();
+
+        return new AccountsPage();
     }
 
     public void goToContacts(){

@@ -4,6 +4,8 @@ import com.w2a.base.Page;
 import com.w2a.pages.HomePage;
 import com.w2a.pages.LoginPage;
 import com.w2a.pages.ZohoAppPage;
+import com.w2a.pages.crm.accounts.AccountsPage;
+import com.w2a.pages.crm.accounts.CreateAccountPage;
 
 
 public class LoginTest {
@@ -12,12 +14,12 @@ public class LoginTest {
 
 
         HomePage home = new HomePage();
-        home.goToLogin();
-        LoginPage login = new LoginPage();
-        login.doLogin("test.automatisierer@gmail.com", "Selenium@123");
-        ZohoAppPage zp = new ZohoAppPage();
+        LoginPage lp = home.goToLogin();
+        ZohoAppPage zp = lp.doLogin("test.automatisierer@gmail.com", "Selenium@123");
         zp.goToCRM();
         Thread.sleep(3000);
-        Page.menu.goToAccounts();
+        AccountsPage accounts = Page.menu.goToAccounts();
+        CreateAccountPage cap = accounts.gotToCreateAccount();
+        cap.createAccount("Max");
     }
 }

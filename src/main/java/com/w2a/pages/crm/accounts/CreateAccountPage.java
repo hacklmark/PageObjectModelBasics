@@ -1,12 +1,13 @@
 package com.w2a.pages.crm.accounts;
 
 import com.w2a.base.Page;
-import com.w2a.base.TopMenu;
+import org.openqa.selenium.By;
 
 public class CreateAccountPage extends Page {
 
 
-    public void createAccount(){
+    public void createAccount(String accountName){
 
+        driver.findElement(By.cssSelector("#Crm_Accounts_ACCOUNTNAME")).sendKeys(accountName);
     }
 }

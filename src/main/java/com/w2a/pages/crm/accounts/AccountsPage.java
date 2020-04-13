@@ -1,13 +1,16 @@
 package com.w2a.pages.crm.accounts;
 
 import com.w2a.base.Page;
-import com.w2a.base.TopMenu;
+import org.openqa.selenium.By;
 
 public class AccountsPage extends Page {
 
 
-    public void gotToCreateAccount(){
+    public CreateAccountPage gotToCreateAccount(){
 
+        driver.findElement(By.cssSelector("button.newwhitebtn")).click();
+
+        return new CreateAccountPage();
     }
 
     public void goToImportAccounts(){
