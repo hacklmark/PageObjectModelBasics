@@ -10,9 +10,9 @@ public class LoginPage extends Page {
 
         type("email_CSS", username);
         click("nextbtn_CSS");
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         type("password_CSS",password);
-        click("signinbtn_CCS");
+        click("signinbtn_ID");
         Thread.sleep(2000);
 
         return new ZohoAppPage();

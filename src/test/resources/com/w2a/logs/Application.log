@@ -1,4 +1,9 @@
-13/04/2020 16:09:31 devpinoyLogger Config file loaded !!!
-13/04/2020 16:09:31 devpinoyLogger OR file loaded !!!
-13/04/2020 16:09:36 devpinoyLogger Google Chrome Launched !!!
-13/04/2020 16:09:38 devpinoyLogger Navigated to : http://www.zoho.com
+01/06/2020 13:13:08 devpinoyLogger Config file loaded !!!
+01/06/2020 13:13:08 devpinoyLogger OR file loaded !!!
+01/06/2020 13:13:12 devpinoyLogger Google Chrome Launched !!!
+01/06/2020 13:13:13 devpinoyLogger Navigated to : http://www.zoho.com
+01/06/2020 13:13:16 devpinoyLogger Clicking on an Element : Loginlink_CSS
+01/06/2020 13:13:17 devpinoyLogger Typing in an Element : email_CSS entered value as : test.automatisierer@gmail.com
+01/06/2020 13:13:17 devpinoyLogger Clicking on an Element : nextbtn_CSS
+01/06/2020 13:13:18 devpinoyLogger Typing in an Element : password_CSS entered value as : Selenium@123
+01/06/2020 13:13:18 devpinoyLogger Clicking on an Element : signinbtn_ID

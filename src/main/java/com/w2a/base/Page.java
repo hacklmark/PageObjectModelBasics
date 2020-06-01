@@ -58,7 +58,7 @@ public class Page {
         if (driver == null) {
 
             //either with PropertyConfigurator or in pom.xml configure log4j
-            PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\test\\resources\\com\\w2a\\properties\\log4j.properties");
+            //PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\test\\resources\\com\\w2a\\properties\\log4j.properties");
             try {
                 fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\com\\w2a\\properties\\Config.properties");
             } catch (FileNotFoundException e) {
@@ -146,6 +146,7 @@ public class Page {
         }else if (locator.endsWith("_ID")){
             driver.findElement(By.id(OR.getProperty(locator))).click();
         }
+        log.debug("Clicking on an Element : "+locator);
         test.log(LogStatus.INFO, "Clicking on : " + locator);
     }
 
@@ -158,6 +159,7 @@ public class Page {
         }else if (locator.endsWith("_ID")){
             driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
         }
+        log.debug("Typing in an Element : "+locator+" entered value as : "+value);
         test.log(LogStatus.INFO, "Typing on : "+locator+" entered value as "+value);
     }
 
@@ -174,6 +176,7 @@ public class Page {
 
         Select select = new Select(dropdown);
         select.selectByVisibleText(value);
+        log.debug("Selecting from an Element : "+locator+" value as :"+value);
         test.log(LogStatus.INFO, "Selecting from dropdown : " + locator + " value as " + value);
     }
 

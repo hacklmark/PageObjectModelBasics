@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7,473">
+           time="5,327">
   <properties />
   
   
-            <testcase name="loginTest" time="7,473" classname="com.w2a.testcases.LoginTest" />
+            <testcase name="loginTest" time="5,327" classname="com.w2a.testcases.LoginTest" />
       
 </testsuite>
