@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c438c8b6-58f5-4e41-8e4a-86dad44e40b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.w2a.testcases/CreateAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/w2a/base/TopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/w2a/base/TopMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/w2a/pages/ZohoAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/w2a/pages/ZohoAppPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/w2a/pages/crm/accounts/AccountsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/w2a/pages/crm/accounts/AccountsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/w2a/pages/crm/accounts/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/w2a/pages/crm/accounts/CreateAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.w2a.testcases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.w2a.testcases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.w2a.testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.w2a.testcases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/w2a/excel/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/w2a/excel/testdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/w2a/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/w2a/logs/Application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/w2a/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/w2a/logs/Selenium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/w2a/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/w2a/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/w2a/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/w2a/runner/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.w2a.testcases.LoginTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.w2a.testcases.LoginTest_results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="588" />
+          <entry key="java" value="592" />
           <entry key="properties" value="72" />
           <entry key="txt" value="11" />
           <entry key="xml" value="39" />
@@ -68,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="588" />
+          <entry key="JAVA" value="592" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="72" />
           <entry key="XML" value="39" />
@@ -102,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com.w2a.testcases/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="420">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com.w2a.testcases/CreateAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,8 +167,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/w2a/pages/crm/accounts/AccountsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/w2a/pages/crm/accounts/CreateAccountPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com/w2a/properties/OR.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com.w2a.testcases/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.w2a.testcases/CreateAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.w2a.testcases/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -425,7 +409,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591702644626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591705593261" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CucumberBasics" />
   </component>
   <component name="RunDashboard">
@@ -527,9 +511,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Mark_Documents_IntelliJ_Udemy_Architect_PageObjectModelBasics_src_test_resources_com_w2a_runner_testng_xml - 2020.06.05 at 14h 01m 13s.xml">
-      <configuration name="C:/Users/Mark/Documents/IntelliJ/Udemy/Architect/PageObjectModelBasics/src/test/resources/com/w2a/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Mark_Documents_IntelliJ_Udemy_Architect_PageObjectModelBasics_src_test_resources_com_w2a_runner_testng_xml - 2020.06.05 at 14h 02m 18s.xml">
       <configuration name="C:/Users/Mark/Documents/IntelliJ/Udemy/Architect/PageObjectModelBasics/src/test/resources/com/w2a/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -557,6 +538,9 @@
     <history-entry file="C__Users_Mark_Documents_IntelliJ_Udemy_Architect_PageObjectModelBasics_src_test_resources_com_w2a_runner_testng_xml - 2020.06.08 at 15h 07m 20s.xml">
       <configuration name="C:/Users/Mark/Documents/IntelliJ/Udemy/Architect/PageObjectModelBasics/src/test/resources/com/w2a/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Mark_Documents_IntelliJ_Udemy_Architect_PageObjectModelBasics_src_test_resources_com_w2a_runner_testng_xml - 2020.06.09 at 13h 38m 04s.xml">
+      <configuration name="C:/Users/Mark/Documents/IntelliJ/Udemy/Architect/PageObjectModelBasics/src/test/resources/com/w2a/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,7 +555,7 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -585,7 +569,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23427331" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23427331" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
@@ -809,20 +793,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.w2a.testcases/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.w2a.testcases/CreateAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="400">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.w2a.testcases/CreateAccountTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.w2a.testcases/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="420">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
