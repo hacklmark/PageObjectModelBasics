@@ -137,7 +137,7 @@ public class Page {
     }
 
     //Common Keywords
-    public void click(String locator){
+    public static void click(String locator){
 
         if (locator.endsWith("_CSS")) {
             driver.findElement(By.cssSelector(OR.getProperty(locator))).click();

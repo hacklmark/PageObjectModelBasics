@@ -8,7 +8,7 @@ public class AccountsPage extends Page {
 
     public CreateAccountPage gotToCreateAccount(){
 
-        driver.findElement(By.cssSelector("button.newwhitebtn")).click();
+        click("createaccountbtn_CSS");
 
         return new CreateAccountPage();
     }

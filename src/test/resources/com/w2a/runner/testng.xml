@@ -15,6 +15,11 @@
                     <include name="loginTest"/>
                 </methods>
             </class>
+            <class name="com.w2a.testcases.CreateAccountTest">
+                <methods>
+                    <include name="createAccountTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
