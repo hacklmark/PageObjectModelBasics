@@ -39,3 +39,25 @@ if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()){
     browser = config.getProperty("browser");
 }
  config.setProperty("browser", browser);
+
+//Extent Reports
+Post-Build-Aktionen > HTML directory to archive: C:\Users\Mark\Documents\IntelliJ\Udemy\Architect\PageObjectModelBasics\target\surefire-reports\html
+> Index page[s]: extent.html
+> Report title: Extent Report
+
+//Running jenkins after push
+GitHub-Projekt > Project url: https://github.com/hacklmark/PageObjectModelBasics
+
+Source-Code-Management > Repository URL: git@github.com:hacklmark/PageObjectModelBasics.git   (ssh)
+https://github.com/hacklmark/PageObjectModelBasics.git  (html)
+
+Build-Auslöser > GitHub hook trigger for GITScm polling
+
+Maven Goal aufrufen >
+> Maven-Version: (Standard)
+> Goals: clean test
+
+GitHub: Setting > Webhooks > http://path/github-webhook/
+> content type app/json
+
+
